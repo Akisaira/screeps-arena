@@ -1,0 +1,25 @@
+{
+  "name": "screeps-arena-scripts",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/screeps-arena": "^0.0.5",
+    "globals": "^15.0.0",
+    "prettier": "^3.2.5",
+    "rollup": "^4.14.3",
+    "typescript": "^5.4.5",
+    "@antfu/eslint-config": "^2.15.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-format": "^0.1.1"
+  }
+}
